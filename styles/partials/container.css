@@ -1,0 +1,85 @@
+.desktop-blur {
+  display: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*----- MAIN CONTENT */
+.secondary-text {
+  font-size: var(--font-extra-medium);
+
+  margin: 5.5rem 3.75rem 0 3.75rem;
+  text-align: center;
+}
+
+.button {
+  border: 1px solid var(--button);
+  background: transparent;
+  color: var(--text-color);
+  font-weight: 700;
+  padding: 1rem 3rem;
+  border-radius: 6px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  font-size: var(--font-extra-small);
+
+  margin: 5.5rem 3.75rem;
+
+  cursor: pointer;
+}
+
+.main-text h1 {
+  text-align: center;
+  font-size: var(--font-large);
+}
+
+.stroke-text {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--button);
+}
+
+.hero-image {
+  width: 100%;
+}
+
+/* -------------- RESPONSIVE (DESKTOP) */
+@media only screen and (min-width: 860px) {
+  .secondary-text {
+    display: none;
+  }
+
+  .main-text {
+    margin: 40px 0;
+  }
+
+  .main-text h1 {
+    font-size: var(--font-extra-large);
+  }
+
+  .desktop-blur {
+    display: block;
+  }
+
+  .desktop-blur #blur1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .desktop-blur #blur2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+  }
+}
