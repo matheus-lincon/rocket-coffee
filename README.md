@@ -5,14 +5,13 @@ O desafio consiste em desenvolver uma homepage para uma marca de café.
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [O Desafio](#o-desafio)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
+- [Meu processo](#meu-processo)
+  - [Feito com](#feito-com)
+  - [O que foi praticado](#o-que-foi-praticado)
+- [Author](#autor)
 
 ## Overview
 
@@ -34,9 +33,9 @@ Esse desafio aborda diversos conceitos como: HTML Semântico, CSS (Positions, Fl
 
 - Live Site URL: [Rocketcoffee](https://matheus-lincon.github.io/rocket-coffee)
 
-## My process
+## Meu processo
 
-### Built with
+### Feito com
 
 - Semantic HTML5 markup
 - JavaScript
@@ -45,13 +44,13 @@ Esse desafio aborda diversos conceitos como: HTML Semântico, CSS (Positions, Fl
   - Position absolute & relative
 - Mobile-first workflow
 
-### What I learned
+### O que foi praticado
 
 Nesse desafio consegui praticar mais sobre layout responsivo e outras maneiras de trabalhar com menus.
 
 ---
 
-## Author
+## Autor
 
 - LinkedIn - [matheus.lincon.10010](https://www.linkedin.com/in/matheus-lincon-10010/)
 - GitHub - [@matheus-lincon](https://www.github.com/matheus-lincon)
